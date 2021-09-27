@@ -38,3 +38,14 @@ script.ParentCanCollide = false
 wait(5)
 ```
 
+
+
+##### 루아 문자열
+
+My가 Your로 대체
+
+```lua
+a = "My Friend"
+string.gsub(a, "My", "Your")
+```
+
